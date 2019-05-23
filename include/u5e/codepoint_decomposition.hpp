@@ -3,7 +3,7 @@
 
 #include <iterator>
 #include <algorithm>
-#include <experimental/string_view>
+#include <string_view>
 
 #include <u5e/codepoint.hpp>
 #include <u5e/props/compatibility_and_canonical_decomposition_mapping.hpp>
@@ -54,7 +54,7 @@ namespace u5e {
       }
     }
     utf32ne_string_view from_database
-      (std::experimental::basic_string_view<int>(begin, count));
+      (std::basic_string_view<int>(begin, count));
     output.template append<utf32ne_string_view>
       (from_database.codepoint_cbegin(),
        from_database.codepoint_cend());

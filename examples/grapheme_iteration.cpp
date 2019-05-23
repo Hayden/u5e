@@ -7,13 +7,13 @@
  * \code
  */// Example on how to iterate
 
-#include <experimental/string_view>
+#include <string_view>
 #include <u5e/utf8_string_view.hpp>
 #include <u5e/utf8_string_view_grapheme.hpp>
 #include <u5e/utf8_string_view_grapheme_iterator.hpp>
 #include <stdio.h>
 
-using std::experimental::string_view;
+using std::string_view;
 using u5e::utf8_string_view;
 using u5e::utf8_string_view_grapheme;
 using u5e::utf8_string_view_grapheme_iterator;

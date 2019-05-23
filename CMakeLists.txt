@@ -10,7 +10,7 @@ add_library(u5e
   src/u5e/props/compatibility_and_canonical_decomposition_mapping.cpp
   )
 target_include_directories(u5e PUBLIC include/)
-target_compile_options(u5e PUBLIC -std=c++1y -Wall -Werror)
+target_compile_options(u5e PUBLIC -std=c++1y -Wall)
 add_subdirectory(googletest/googletest)
 enable_testing()
 

@@ -4,9 +4,9 @@
 #include <u5e/utf32ne_string.hpp>
 #include <u5e/filter.hpp>
 #include <u5e/canonical_decomposition.hpp>
-#include <experimental/string_view>
+#include <string_view>
 
-using std::experimental::basic_string_view;
+using std::basic_string_view;
 
 TEST(t_010_canonical_decomposition, no_decomposition) {
   const int r[1] = { 0xC0 };

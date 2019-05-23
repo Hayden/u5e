@@ -7,11 +7,11 @@
  * \code
  */// Example on how to iterate
 
-#include <experimental/string_view>
+#include <string_view>
 #include <u5e/utf8_string_view.hpp>
 #include <stdio.h>
 
-using std::experimental::string_view;
+using std::string_view;
 
 int main(int argc, char **argv) {
   // for each argument

@@ -1,12 +1,12 @@
 #include <string>
-#include <experimental/string_view>
+#include <string_view>
 #include <u5e/utf32ne_string.hpp>
 #include <u5e/utf32ne_string_view.hpp>
 
 #include "gtest/gtest.h"
 
 using std::basic_string;
-using std::experimental::basic_string_view;
+using std::basic_string_view;
 using u5e::utf32ne_string_view;
 using u5e::utf32ne_string;
 

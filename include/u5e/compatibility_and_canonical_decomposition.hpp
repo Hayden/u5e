@@ -3,7 +3,7 @@
 
 #include <iterator>
 #include <algorithm>
-#include <experimental/string_view>
+#include <string_view>
 
 #include <u5e/codepoint.hpp>
 #include <u5e/codepoint_decomposition.hpp>
